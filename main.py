@@ -14,7 +14,7 @@ MONGO_URL = os.environ.get("mongodb+srv://abc:abcd@cluster0.dzijde4.mongodb.net/
 
 
 bot = Client(
-    "VickBot" ,
+    "VickBot"
     api_id = 18654447
     api_hash = 60ac6f65c766e73dfcc1debef93d06bc
     bot_token = 5058249365:AAGpAKZV8yV0aBXCaVkVOCEtWRIJQnv7V40
