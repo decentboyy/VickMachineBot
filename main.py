@@ -306,8 +306,4 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
        
-      await idle()
-
-
-loop = get_event_loop()
-loop.run_until_complete(main())
+bot.run()
